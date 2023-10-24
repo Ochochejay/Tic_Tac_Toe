@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic_Tac_Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <main>
+        <h1 class="hide"><span>Tic</span> Tac <span>Toe</span></h1>
+
+        <section class="score-board">
+            <p id="player-id">Player (X)</p>
+            <p id="tie-id">Tie</p>
+            <p id="comp-id">Computer (O)</p>
+            <p id="player-score">0</p>
+            <p id="tie-score">0</p>
+            <p id="comp-score">0</p>
+        </section>
+
+        <h2 class="hide"></h2>
+        <i>Click on the board to Play</i>
+        
+        <div class="board">
+            <button class="hide row1 col1 diagonal1" id="1"></button>
+            <button class="hide row1 col2" id="2"></button>
+            <button class="hide row1 col3 diagonal2" id="3"></button>
+            <button class="hide row2 col1" id="4"></button>
+            <button class="hide row2 col2 diagonal1 diagonal2" id="5"></button>
+            <button class="hide row2 col3" id="6"></button>
+            <button class="hide row3 col1 diagonal2" id="7"></button>
+            <button class="hide row3 col2" id="8"></button>
+            <button class="hide row3 col3 diagonal1" id="9"></button>
+        </div>
+    
+        <footer>
+            <p>&copy; Samuel James</p>
+        </footer>
+    </main>
+
+    <script src="sourcefile.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

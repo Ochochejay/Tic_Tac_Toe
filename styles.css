@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(19, 18, 18);
+    font-family: cursive;
+}
+
+.score-board {
+    display: grid;
+    grid-template-columns: repeat(3, 105px);
+    color: rgb(155, 153, 153);
+    text-align: center;
+    gap: 3px;
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: rgb(155, 153, 153);
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 0;
+    color: rgb(7, 7, 196);
+}
+
+span, .red-text{
+    color: rgb(204, 7, 7);
+}
+
+p {
+    margin: 0;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 0;
+    color: rgb(7, 7, 196);
+}
+
+.board {
+    margin-top: 20px;
+    display: grid;
+    background-color: rgb(155, 153, 153);;
+    grid-template-rows: repeat(3, 120px);
+    grid-template-columns: repeat(3, 120px);
+    gap: 5px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 7rem;
+    background-color: rgb(19, 18, 18);
+    color: rgb(7, 7, 196);
+    border: 0;
+}
+
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    margin: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+@media(max-width: 480px){
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+}
